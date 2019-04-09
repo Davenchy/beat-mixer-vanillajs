@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 50px 0 30px 0;
+  font-size: 35px;
+}
+.header p {
+  font-size: 20px;
+}
+
+.pads {
+  width: 100vw;
+  display: flex;
+}
+
+.pads > div {
+  width: 100px;
+  height: 100px;
+  flex: 1;
+  cursor: pointer;
+}
+.pads > div:hover {
+  opacity: 0.8;
+}
+
+.pad1 {
+  background: #e74c3c;
+}
+.pad2 {
+  background: #e67e22;
+}
+.pad3 {
+  background: #f1c40f;
+}
+.pad4 {
+  background: #2ecc71;
+}
+.pad5 {
+  background: #3498db;
+}
+.pad6 {
+  background: #9b59b6;
+}
