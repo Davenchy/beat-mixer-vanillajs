@@ -1,6 +1,6 @@
 # Beat Mixer
 
-Wanna to play some javascript music.
+Wanna play some vanilla javascript music.
 
 
 ## Note
