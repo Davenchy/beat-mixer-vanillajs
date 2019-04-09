@@ -21,9 +21,12 @@
   font-size: 20px;
 }
 
+/* pads section */
+
 .pads {
   width: 100vw;
   display: flex;
+  background: white;
 }
 
 .pads > div {
@@ -53,4 +56,29 @@
 }
 .pad6 {
   background: #9b59b6;
+}
+
+/* effects section */
+.effects > div {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: -1;
+  animation: jump 1s ease;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+  100% {
+    bottom: 0%;
+    left: 80%;
+  }
 }
